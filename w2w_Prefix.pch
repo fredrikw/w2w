@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'w2w' target in the 'w2w' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

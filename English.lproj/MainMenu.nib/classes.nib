@@ -1,0 +1,40 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {checkForUpdate = id; download = id; toggleUpdateCheck = id; }; 
+            CLASS = updateCheck; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                updateDetails = NSTextView; 
+                updateToggle = NSMenuItem; 
+                updateWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addSite = id; 
+                editFolder = id; 
+                goToHomepage = id; 
+                saveAction = id; 
+                updateSite = id; 
+            }; 
+            CLASS = "w2w_AppDelegate"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                checker = updateCheck; 
+                editButton = NSButton; 
+                folderPathField = NSTextField; 
+                main = NSWindow; 
+                progress = NSProgressIndicator; 
+                progressInfo = NSTextField; 
+                siteDrawer = NSDrawer; 
+                sites = NSArrayController; 
+                table = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
